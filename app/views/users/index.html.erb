@@ -1,0 +1,22 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Users" %>
+
+<h1>Users</h1>
+
+<div id="users">
+  <% @users.each do |user| %>
+    <%= render user %>
+    <p>
+      <%= link_to "Show this user", user %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New user", new_user_path %>
+<br>
+<%= link_to "Generate users", generate_users_path, data: { turbo_method: :post } %>
+<br>
+<%= link_to "Generate users in 10 seconds", generate_users_path(delay: 5), data: { turbo_method: :post } %>
+<br>
+<%= link_to "Clear users", clear_users_path, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
