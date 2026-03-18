@@ -1,24 +1,13 @@
-# README
+# Solid Queue Examples
+## Ruby on Rails Web App that demonstrates ActiveJob & Solid Queue
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails web app for Montreal.rb Ruby Meetup talk:
 
-Things you may want to cover:
+[Solid Queue: Rails ActiveJob DB-based Queuing Backend](https://www.meetup.com/montrealrb/events/312097512/)
 
-* Ruby version
 
-* System dependencies
+## License
 
-* Configuration
+[MIT](LICENSE.txt)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copyright (c) 2026 - Andy Maleh.
